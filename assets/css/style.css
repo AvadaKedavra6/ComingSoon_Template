@@ -1,0 +1,126 @@
+/* Coming Soon WebPage template */
+/*      Created by Avada        */
+
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap');
+
+/* Main */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Different Colors */
+#purple-light {
+    background-color: #9158c0;
+    width: 910px;
+    height: 910px;
+    top: -50%;
+    left: -25%;
+    border-radius: 50%;
+    z-index: 10;
+    position: absolute;
+    filter: blur(200px);
+    opacity: 0.2;
+}
+
+#blue-light {
+    background-color: #4e5bcf;
+    width: 910px;
+    height: 910px;
+    top: -50%;
+    right: -25%;
+    border-radius: 50%;
+    z-index: 10;
+    position: absolute;
+    filter: blur(200px);
+    opacity: 0.2;
+}
+
+#dark-light {
+    background-color: #1d2127;
+    width: 1000px;
+    height: 1000px;
+    bottom: -50%;
+    right: -25%;
+    border-radius: 50%;
+    z-index: 5;
+    position: absolute;
+    filter: blur(200px);
+    opacity: 1;
+}
+
+/* Body */
+body {
+    background-color: #13171C;
+    background-image: url("../img/Square.svg");
+    background-size: cover;
+    text-align: center;
+    overflow: hidden;
+
+    & main {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        width: 100svw;
+        height: 100svh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        & > div {
+            z-index: 15;
+
+            > p {
+                border-radius: 32px;
+                padding: 12px 24px;
+                color: #7d47bb;
+                display: inline-flex;
+                justify-content: center;
+                background: linear-gradient(90deg, rgba(251, 237, 150, 0.05) 0%, rgba(171, 236, 214, 0.05) 100%);
+                font-size: 20px;
+                margin-bottom: 15px;
+            }
+
+            > h1 {
+                color: white;
+                font-size: 80px;
+                margin-bottom: 15px;
+            }
+
+            > h2 {
+                color: #A8AEAE;
+                text-align: center;
+                font-family: 'Plus Jakarta Sans', sans-serif;
+                font-size: 20px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: 30px;
+                max-width: 844px;
+                margin-bottom: 45px;
+            }
+
+            & div {
+                display: inline-flex;
+                padding: 12px 24px;
+                justify-content: center;
+                align-items: center;
+                gap: 10px;
+                border-radius: 32px;
+                background: linear-gradient(180deg, rgba(255, 255, 255, 0.06) 0%, rgba(255, 255, 255, 0.01) 100%);
+                box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+                transition-duration: 0.3s;
+
+                &:hover {
+                    transition-duration: 0.3s;
+                    scale: 1.20;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                }
+
+                & a {
+                    color: #A8AEAE;
+                    font-weight: 400;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
