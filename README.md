@@ -5,6 +5,7 @@ I just ask to be written in the credits if you use my template ^^
 
 # What does it look like ?
 
+![ScreenShot](https://raw.githubusercontent.com/AvadaKedavra6/ComingSoon_Template/main/be%20patient%20eh.png)
 
 # How to install and modify colors ?
 
